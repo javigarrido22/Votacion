@@ -62,7 +62,7 @@
     $region="select * from regiones";
     $resultado=mysqli_query($conexion,$region);
     while($valores=mysqli_fetch_array($resultado)){
-        echo '<option value="'.$valores[region].'">'.$valores[region].'</option>';
+        echo '<option value="'.$valores[$region].'">'.$valores[$region].'</option>';
     }
     ?>
     </select>
@@ -73,7 +73,7 @@
     $comuna="select * from comunas";
     $resultado=mysqli_query($conexion,$comuna);
     while($valores=mysqli_fetch_array($resultado)){
-        echo '<option value="'.$valores[comuna].'">'.$valores[comuna].'</option>';
+        echo '<option value="'.$valores[$comuna].'">'.$valores[$comuna].'</option>';
     }
     ?>
     </select>
@@ -85,7 +85,7 @@
     $candidato="select * from candidato";
     $resultado=mysqli_query($conexion,$candidato);
     while($valores=mysqli_fetch_array($resultado)){
-        echo '<option value="'.$valores[candidato].'">'.$valores[candidato].'</option>';
+        echo '<option value="'.$valores[$candidato].'">'.$valores[$candidato].'</option>';
     }
     ?>
     </select>
