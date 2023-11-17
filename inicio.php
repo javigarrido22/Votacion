@@ -54,7 +54,7 @@
         }
     </script>
     <script src="https://ajax.googleapiscom/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!--desplegables-->
+<!--desplegables. Trae opciones desde base de datos-->
   <select name="region">
   <option value="0"> Seleccione</option>
 <?php
