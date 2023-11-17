@@ -1,6 +1,6 @@
 <?php
 $rut = $_POST['rut'];
-$largo =strlen ('$rut')
+$largo =strlen ('$rut');
 $contar=2;
 while ($rut<>0){
     $contaruno =($rut % 10)*contar;
