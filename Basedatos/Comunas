@@ -1,4 +1,0 @@
- create table Comunas(
-    id_comunas_Reg varchar(5),
-    comuna varchar(150)
- )
